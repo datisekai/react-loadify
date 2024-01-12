@@ -29,3 +29,10 @@ import "react-loadify/dist/react-loadify.min.css";
 ```js
 <DSpinner size={100} color="red" borderWidth={10} speed={1000} />
 ```
+
+#### DSpinner Props
+
+color (string, optional): Specifies the color of the spinner. Default value is '#fff'.
+size (number, optional): Specifies the size of the spinner in pixels. Default value is 48.
+speed (number, optional): Specifies the speed of the spinner animation in milliseconds. Default value is 1500.
+borderWidth (number, optional): Specifies the width of the spinner's border in pixels. Default value is 5.
