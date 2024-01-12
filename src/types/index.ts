@@ -3,5 +3,4 @@ export interface IDSpinner {
   color?: string;
   speed?: number;
   borderWidth?: number;
-  type?: "normal" | "clock" | "mixed";
 }
