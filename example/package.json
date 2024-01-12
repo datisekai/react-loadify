@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "boilerplate-sdk-react": "file:..",
+    "react-hot-loading": "file:..",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

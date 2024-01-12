@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-sdk-react",
+  "name": "react-hot-loading",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "npm run format && rm -rf dist/ && tsc && npm run build:scss",
-    "build:scss": "sass src/styles/main.scss dist/boilerplate-sdk-react.min.css --style=compressed --no-source-map",
+    "build:scss": "sass src/styles/main.scss dist/react-hot-loading.min.css --style=compressed --no-source-map",
     "dev": "tsc --watch",
     "format": "prettier --write \"src/**/*.{ts,tsx}\""
   },

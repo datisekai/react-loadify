@@ -1,6 +1,4 @@
-import React from "react";
-const HotLoading = () => {
-  return <div id="react-hot-loading">Hi, example boilerplate sdk reat</div>;
-};
+export { default as DDot } from "./components/DDot";
+export { default as DSpinner } from "./components/DSpinner";
 
-export default HotLoading;
+export * from "./types";
