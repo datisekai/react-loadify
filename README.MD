@@ -52,10 +52,10 @@ import "react-loadify/dist/react-loadify.min.css";
 ### DBar
 
 ```js
-<DSpinner size={100} color="red" speed={1000} />
+<DBar size={100} color="red" speed={1000} />
 ```
 
-#### DSpinner Props
+#### DBar Props
 
 - color (string, optional): Specifies the color of the spinner. Default value is '#fff'.
 - size (number, optional): Specifies the size of the spinner in pixels. Default value is 48.
